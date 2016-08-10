@@ -15,6 +15,8 @@
 		04F809921D5B1279004B8177 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F809901D5B1279004B8177 /* LaunchScreen.storyboard */; };
 		04F8099D1D5B1279004B8177 /* chuanzhiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F8099C1D5B1279004B8177 /* chuanzhiTests.m */; };
 		04F809A81D5B1279004B8177 /* chuanzhiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F809A71D5B1279004B8177 /* chuanzhiUITests.m */; };
+		04F809B71D5B146B004B8177 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F809B61D5B146B004B8177 /* SecondViewController.m */; };
+		04F809BA1D5B167E004B8177 /* BlockButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F809B91D5B167E004B8177 /* BlockButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		04F809A31D5B1279004B8177 /* chuanzhiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chuanzhiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F809A71D5B1279004B8177 /* chuanzhiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = chuanzhiUITests.m; sourceTree = "<group>"; };
 		04F809A91D5B1279004B8177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F809B51D5B146B004B8177 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		04F809B61D5B146B004B8177 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		04F809B81D5B167E004B8177 /* BlockButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockButton.h; sourceTree = "<group>"; };
+		04F809B91D5B167E004B8177 /* BlockButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				04F809861D5B1279004B8177 /* AppDelegate.m */,
 				04F809881D5B1279004B8177 /* ViewController.h */,
 				04F809891D5B1279004B8177 /* ViewController.m */,
+				04F809B81D5B167E004B8177 /* BlockButton.h */,
+				04F809B91D5B167E004B8177 /* BlockButton.m */,
+				04F809B51D5B146B004B8177 /* SecondViewController.h */,
+				04F809B61D5B146B004B8177 /* SecondViewController.m */,
 				04F8098B1D5B1279004B8177 /* Main.storyboard */,
 				04F8098E1D5B1279004B8177 /* Assets.xcassets */,
 				04F809901D5B1279004B8177 /* LaunchScreen.storyboard */,
@@ -270,9 +280,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F809B71D5B146B004B8177 /* SecondViewController.m in Sources */,
 				04F8098A1D5B1279004B8177 /* ViewController.m in Sources */,
 				04F809871D5B1279004B8177 /* AppDelegate.m in Sources */,
 				04F809841D5B1279004B8177 /* main.m in Sources */,
+				04F809BA1D5B167E004B8177 /* BlockButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
